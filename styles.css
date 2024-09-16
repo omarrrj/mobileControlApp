@@ -64,7 +64,7 @@ input:checked + .slider:before {
 #temp-display {
     font-size: 2em;
     margin: 20px 0;
-    color: #ff7f1a; /* Bright orange color for temperature display */
+    color: #fff; 
 }
 
 /* Header Styles */
@@ -148,7 +148,7 @@ h2 i {
 #song-display {
     font-size: 1.5em;
     margin: 20px 0;
-    color: #ff7f1a; /* Bright orange color for song display */
+    color: #fff; /* Bright orange color for song display */
     font-style: italic;
 }
 
