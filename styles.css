@@ -152,6 +152,38 @@ body {
     color: #ff7f1a; /* Bright orange color for song display */
     font-style: italic;
   }
+
+ footer {
+    
+    color: #fff;
+    padding: 20px; /* Added more padding for space */
+    text-align: center;
+    border-top: 2px solid #ddd; /* Thicker border for better visibility */
+    margin-top: 20px; /* Adds space above the footer */
+  }
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* LinkedIn color */
+}
+
+.social-icons a:nth-child(2):hover {
+    color: #fff; /* GitHub color */
+}
   
   /* Responsive Design */
   @media (max-width: 600px) {
