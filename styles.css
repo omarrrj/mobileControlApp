@@ -2,38 +2,38 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #003366, #66ccff); /* Navy blue to light blue gradient background */
+    background: linear-gradient(135deg, #28074a, #491088); /* Soft gradient background */
     color: #fff;
     overflow-x: hidden; /* Prevent horizontal scroll */
-}
-
-/* Toggle Switch Styles */
+  }
+  
+  /* Toggle Switch Styles */
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
-}
-
-.switch input {
+  }
+  
+  .switch input {
     opacity: 0;
     width: 0;
     height: 0;
-}
-
-.slider {
+  }
+  
+  .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #4a90e2; /* Blue background for toggle */
+    background-color: #bd4de5; /* Purple background for toggle */
     transition: .4s;
     border-radius: 34px;
-}
-
-.slider:before {
+  }
+  
+  .slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -43,75 +43,76 @@ body {
     bottom: 4px;
     background-color: white;
     transition: .4s;
-}
-
-input:checked + .slider {
-    background-color: #007aff; /* Brighter blue when toggled */
-}
-
-input:checked + .slider:before {
+  }
+  
+  input:checked + .slider {
+    background-color: #ff19db; /* Pink when toggled */
+  }
+  
+  input:checked + .slider:before {
     transform: translateX(26px);
-}
-
-/* Status Text */
-#toggle-status {
+  }
+  
+  /* Status Text */
+  #toggle-status {
     font-size: 1.2em;
     color: #fff;
     margin-left: 10px;
-}
-
-/* Temperature Display Styles */
+  }
+  
+  
+  /* Temperature Display Styles */
 #temp-display {
     font-size: 2em;
     margin: 20px 0;
-    color: #fff; 
-}
+    color: #fff; /* Bright pink color for temperature display */
+  }
 
-/* Header Styles */
-header {
-    background-color: #003366; /* Navy blue background */
+  /* Header Styles */
+  header {
+    background-color: #28074a; /* Deep dark purple background */
     color: #fff;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Subtle shadow for depth */
-}
-
-header h1 {
+  }
+  
+  header h1 {
     margin: 0;
     font-size: 1.8em;
-}
-
-/* Main Section Styles */
-main {
+  }
+  
+  /* Main Section Styles */
+  main {
     padding: 20px;
-}
-
-/* Section Styles */
-section {
-    background: linear-gradient(to bottom, #004080, #66ccff); /* Gradient blue background for sections */
+  }
+  
+  /* Section Styles */
+  section {
+    background: linear-gradient(to bottom, #491088, #6c1dd0);/* Gradient purple background for sections */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
     margin-bottom: 20px;
     padding: 20px;
     color: #fff;
     text-align: center; /* Center align text inside sections */
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 1.5em;
     margin-top: 0;
     display: flex;
     align-items: center;
     justify-content: center; /* Center align icon and text */
-}
-
-h2 i {
+  }
+  
+  h2 i {
     margin-right: 10px; /* Space between icon and text */
-}
-
-/* Button Styles */
-.control-button {
-    background-color: #4a90e2; /* Blue for buttons */
+  }
+  
+  /* Button Styles */
+  .control-button {
+    background-color: #bd4de5; /* Bright purple for buttons */
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -123,38 +124,39 @@ h2 i {
     padding: 10px;
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Shadow for depth */
-}
-
-.control-button i {
+  }
+  
+  .control-button i {
     margin-right: 8px;
-}
-
-.control-button:hover {
-    background-color: #007aff; /* Brighter blue on hover */
+  }
+  
+  .control-button:hover {
+    background-color: #ff19db; /* Bright pink on hover */
     transform: scale(1.05); /* Slight scale effect on hover */
-}
-
-.control-button:focus, .control-button:hover, .control-button:active {
-    background-color: #007aff; /* Brighter blue on hover */
+  }
+  
+  .control-button:focus, .control-button:hover, .control-button:active {
+    background-color: #ff19db; /* Bright pink on hover */
     transform: scale(1.05); /* Slight scale effect on hover */
-    box-shadow: 0 0 15px rgba(0, 122, 255, 0.5); /* Soft glow effect */
-}
+    box-shadow: 0 0 15px rgba(255, 19, 219, 0.5); /* Soft glow effect */
+  }
 
-/* Music Section Styles */
+  /* Music Section Styles */
 #music {
-    background: #004080; /* Dark blue background for music section */
-}
-
-#song-display {
+    background: #6c1dd0; /* Gradient purple background for music section */
+  }
+  
+  #song-display {
     font-size: 1.5em;
     margin: 20px 0;
-    color: #fff; /* Bright orange color for song display */
+    color: #ff7f1a; /* Bright orange color for song display */
     font-style: italic;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
     main {
         padding: 10px;
     }
-}
+  }
+  
