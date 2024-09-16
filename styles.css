@@ -1,7 +1,9 @@
 /* General Body Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
     background: linear-gradient(135deg, #28074a, #491088); /* Soft gradient background */
     color: #fff;
     overflow-x: hidden; /* Prevent horizontal scroll */
